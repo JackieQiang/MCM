@@ -74,7 +74,7 @@ python -m pip install -r requirements.txt
 * 运行Neo4j知识图谱
 
 *注：Neo4j 5.x需要安装jdk17，以下第一行命令为在ubuntu下安装jdk17，若已安装可跳过，windows或mac os可前往官网下载安装包（https://www.oracle.com/java/technologies/downloads/archive/ ）*
-
+* Neo4j 5.x的安装方法查看 https://debian.neo4j.com/?_gl=1*1fiiaew*_gcl_au*MTgyNjc4NDg0My4xNzI3ODc4NDA5*_ga*MTY5NDM0MzcyNC4xNzI3ODc4NDA5*_ga_DL38Q8KGQC*MTcyNzg3ODQwOS4xLjEuMTcyNzg3ODg0OC4wLjAuMA..*_ga_DZP8Z65KK4*MTcyNzg3ODQwOS4xLjEuMTcyNzg3ODg0MS4wLjAuMA..
 ```shell
 sudo apt-get install openjdk-17-jdk  # 若已安装则可跳过
 cd Dist/libs/neo4j-community-5.20.0/bin
@@ -84,7 +84,7 @@ neo4j start
 * 修改配置文件
 ```shell
 conf.yaml  # 所有的配置
-src/utils/translator.py  # 填写自己的SecretID和SecretKey
+src/utils/translator.py  # 填写自己腾讯云的SecretID和SecretKey
 ```
 
 
